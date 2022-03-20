@@ -13,8 +13,8 @@
 <body>
 
     <aside>
-        <img src="{% static 'main/img/logo.png' %}" alt="logo">
-        <span class="logo">VBorodin</span>
+        <a href="{% url 'home' %}"><img src="{% static 'main/img/logo.png' %}" alt="logo"></a>
+        <a class="logo_text" href="{% url 'home' %}"><span class="logo">VBorodin</span></a>
         <h3>Навигация</h3>
         <ul>
             <a href="{% url 'home' %}"><li><i class="fa-solid fa-house"></i> Главная</li></a>
