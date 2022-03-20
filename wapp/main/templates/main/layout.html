@@ -19,8 +19,9 @@
         <ul>
             <a href="{% url 'home' %}"><li><i class="fa-solid fa-house"></i> Главная</li></a>
             <a href="{% url 'about' %}"><li><i class="fa-solid fa-circle-info"></i> О сайте</li></a>
-            <a href="#"><li><i class="fa-solid fa-newspaper"></i> Новости</li></a>
+            <a href="{% url 'news' %}"><li><i class="fa-solid fa-newspaper"></i> Новости</li></a>
             <a href="#"><li><i class="fa-solid fa-phone"></i> Связь</li></a>
+            <a href="{% url 'create' %}"><li><button class="btn btn-info"><i class="fa-solid fa-circle-plus"></i> Добавить запись</button></li></a>
         </ul>
     </aside>
     <main>
